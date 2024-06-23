@@ -10,9 +10,9 @@ auth = Blueprint('auth', __name__)
 
 # Add your cloudinary credentials here!
 Cloud.config( 
-  cloud_name = "", 
-  api_key = "", 
-  api_secret = "" 
+  cloud_name = "dtwk9ibwl", 
+  api_key = "338583638663642", 
+  api_secret = "LBDdogbfDM7gQBehagvdon7_1Rc" 
 )
 
 @auth.route('/signup', methods=['POST', 'GET'])
